@@ -1,0 +1,16 @@
+<table>
+    <tr>
+      <th>id</th>
+      <th>name</th>
+      <th>full name</th>
+      <th>age</th>
+    </tr>
+    <% persons.forEach( item =>{ %>
+        <tr>
+            <td><%= item.id %></td>
+            <td><%= item.name %></td>
+            <td><%= item.last_name %></td>
+            <td><%= item.age %></td>
+        </tr>
+<%}) %>
+  </table>
